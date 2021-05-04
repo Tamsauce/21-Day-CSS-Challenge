@@ -23,7 +23,9 @@ body {
   font-family: sans-serif;
 }
 
-.container {
+
+/* My way  */
+/* .container {
   width: 100%;
   background: #23424a;
 }
@@ -42,4 +44,25 @@ body {
   max-width: 750px;
   margin: 0 auto;
   padding: 50px 0;
+} */
+
+/* 
+Better way  */
+
+/* common layout for almost all containers - set width, set max-width of 750 and a set margin of 0 plus auto! */
+.container{
+  width: 80%;
+  max-width: 750px;
+  margin: 0 auto;
+}
+
+.intro{
+  background: #23424A;
+  color: white;
+  padding: 50px 0;
+}
+
+.intro-content {
+  width: 50%;
+ 
 }
